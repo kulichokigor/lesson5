@@ -1,0 +1,149 @@
+body{
+	font-family: comic sans ms;
+	font-size: 15px;
+}
+.main-box{
+	width: 1024px;
+	display: block;
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+	border: 4px groove #ffd945;
+	border-radius: 10px;
+}
+/*Header*/
+.header{
+	line-height: 150px;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffd945 10%, #100500 70%);
+    border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    margin: 0 5px;
+    font-family: matura mt script capitals;
+    font-size: 70px;
+    color: #ffe581;
+}
+/*Main menu*/
+.menu{
+	width: inherit;
+	overflow: hidden;
+	margin: 5px;
+	font-size: 20px;
+}
+.menu a:first-child{
+	border-radius: 5px 0 0 5px;
+}
+.menu a:last-child{
+	border-radius: 0 5px 5px 0;
+}
+
+.menu a{
+
+	float: left;
+	background: #000;
+	color: #fff;
+	width: 202px;
+}
+.menu a:hover{
+	text-decoration: overline;
+	color: #ffd945;
+	font-size: 1.2em;
+
+}
+
+a {
+	display: block;
+	text-align: center;
+	line-height: 45px;
+	text-decoration: none;
+}
+/*Content*/
+.box-content{
+	margin: 5px;
+	overflow:hidden;
+}
+/*Left menu*/
+.aside-left{
+	display: block;
+	width: 180px;
+	overflow: hidden;
+	margin: 0 auto;
+	font-size: 15px;
+	font-weight:bold;
+	padding-top: 20px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+#category{
+
+	padding: 1px;
+}
+
+.category{
+	color: #fff;
+	display: block;
+	border: 1px solid #fff;
+	width: 170px;
+	padding: 2px;
+	background: #636060;
+	background: #000000;
+    border-radius: 5px;
+}
+li{
+	display: block;
+
+}
+.aside-left ul li>ul{
+	display: none;
+}
+.subcategory{
+	background: #ffd945;
+	color: #000;
+	border: 1px solid;
+	width: 170px;
+	margin: 1px;
+	font-size: 0.8em;
+    border-radius: 5px;
+}
+#category li:hover ul{
+	color: red;
+	display: block;
+}
+.category:hover{
+	color: #ffd945;
+	text-decoration: overline;
+}
+.subcategory:hover{
+	color: #000;
+	text-decoration: underline;
+}
+/*Main text content*/
+.content{
+	width: calc(100% - 200px);
+	float: right;
+	text-align: justify;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid;
+	background: #fdfaed;
+}
+p{
+	text-indent: 20px;
+}
+p:first-letter{
+	font-size: 20px;
+}
+/*Footer*/
+.footer-box{
+    padding: 50px;
+    background: linear-gradient(to left, #edc940, #000000);
+    color: #ffe581;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
